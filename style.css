@@ -3,3 +3,104 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-nav {
+    background-color: #FFDBAA;
+    color: #553100;  
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 30px;
+    border-bottom: solid;
+}
+
+.logo{
+    margin-right: auto;
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+.nav-button{
+    background-color: #805215;
+    border: 3px;
+    color: white;
+    font-weight: 500px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.first-section{
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;    
+}
+
+.column {
+    flex: 1;
+    box-shadow: 0px 0px 5px black;  
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+}
+
+section{
+    background-color: #D4A76A;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+.main-button{
+    background-color: #805215;
+    border: 3px;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.column > p{
+    text-align: left;
+    font-weight: 500;
+    font-family: "Helvetica";    
+}
+
+.big-button{
+    background-color: #805215;
+    border: 3px;
+    color: white;
+    padding: 15px 500px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.first{
+    margin-bottom: 40px;
+}
+.second{
+    margin-bottom: 20px;
+}
+.third{
+    margin-bottom: 40px;
+}

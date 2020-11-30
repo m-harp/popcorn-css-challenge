@@ -1,0 +1,22 @@
+{
+  "name": "popcorn-css-challenge",
+  "version": "1.0.0",
+  "description": "POPCORN",
+  "main": "index.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-harp/popcorn-css-challenge.git"
+  },
+  "keywords": [
+    "popcorn"
+  ],
+  "author": "Matt Harp & Henry Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-harp/popcorn-css-challenge/issues"
+  },
+  "homepage": "https://github.com/m-harp/popcorn-css-challenge#readme"
+}
